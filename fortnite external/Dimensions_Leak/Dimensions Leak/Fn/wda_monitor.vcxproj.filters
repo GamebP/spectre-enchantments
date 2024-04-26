@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Dimension.cpp" />
+    <ClCompile Include="D3DOVERLAY.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="memoryq.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>settings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d9_x.h" />
+    <ClInclude Include="D3DOVERLAY.hpp">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryq.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>controller\XBOX</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Icons.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="LightFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="includesN.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="auth">
+      <UniqueIdentifier>{7c7a4400-482c-4838-875d-014ae3da5054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay">
+      <UniqueIdentifier>{1e36b3ba-4e4b-4202-8cfc-e9a222a9b849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{d32c0ac3-ed70-4e29-b8fc-7656700159b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mouse">
+      <UniqueIdentifier>{36b2a750-0e7b-4141-ad7f-5aed19660bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{0a3b41d6-e658-4595-90e0-07567bb82219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{23d8d0b3-f9e0-4b03-b464-b054583269c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller\XBOX">
+      <UniqueIdentifier>{bf22d313-8cb8-495f-aa7b-f28ced8ec1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller\PlayStation">
+      <UniqueIdentifier>{4cb99e55-776c-4a48-b0f4-55140e2ef90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings">
+      <UniqueIdentifier>{00fb8494-a724-4dfb-82a6-fe207abf7a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{f4915778-6e94-42d3-a5e5-f16d72185cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{a4fb4360-47f6-4856-994f-f5175140059e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="makfn.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="FVector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_utils.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pasting\delta\Fn\godfather.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{cf52d5fc-337b-4d69-b482-03bfd196c0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{df1069d5-c13c-40b5-9626-1dbadd77e2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{f608e510-e90a-43d0-bbf8-ec933dd2dffc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="decryption.asm">
+      <Filter>utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
